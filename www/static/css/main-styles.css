@@ -1,0 +1,16 @@
+.container-fluid{
+    background-color:#FF4D4D;
+    background-image:url("background.png");
+}
+
+/*Across All*/
+
+.contact{
+    margin-top:140px;
+    text-align:right;
+    padding-right:50px;
+}
+
+.white{
+    background-color:white;
+}
