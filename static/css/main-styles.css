@@ -1,6 +1,7 @@
 .container-fluid{
     background-color:#FF4D4D;
     background-image:url("background.png");
+    min-height: 100%;
 }
 
 /*Across All*/
@@ -11,6 +12,16 @@
     padding-right:50px;
 }
 
-.white{
-    background-color:white;
+.white {
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    padding: 20px;
+    padding-top:40px;
+    padding-bottom:70px;
+
 }
