@@ -2,6 +2,7 @@
     background-color:#FF4D4D;
     background-image:url("background.png");
     min-height: 100%;
+    font-family: 'Philosopher', sans-serif;
 }
 
 /*Across All*/
@@ -13,7 +14,7 @@
 }
 
 .white {
-    background-color: white;
+    background-color: #f8f8f8;
     color: black;
     margin-top: 50px;
     margin-bottom: 100px;
@@ -24,4 +25,20 @@
     padding-top:40px;
     padding-bottom:70px;
 
+}
+
+.navbar-default .navbar-nav li a{
+    color:#000000;
+}
+
+.navbar-default .navbar-nav li a:hover{
+    background-color:#FFE0E0;
+}
+
+.row{
+    margin-top:10px;
+}
+
+.center{
+    text-align:center;
 }
