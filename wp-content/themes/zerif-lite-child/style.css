@@ -129,6 +129,10 @@ button{
     background: #C571A6;
 }
 
+.company-details .zerif-footer-address a:visited{
+	color:#939393;
+}
+
 /*Pirate Forms*/
 .pirate_forms .pirate-forms-submit-button:hover{
 	background-color:#F9A1D9;
