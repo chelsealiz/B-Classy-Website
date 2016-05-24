@@ -16,6 +16,8 @@
 hover color: #F9A1D9
 */
 
+/*Global Styles*/
+
 a{
 	color:#C571A6;
 }
@@ -24,9 +26,17 @@ a:visited{
 	color:#C571A6;
 }
 
+a:hover{
+	color:#F9A1D9;
+}
+
 .social li a:hover{
 	color:#F9A1D9;
 }
+
+.company-details a:hover{
+	color:#F9A1D9;
+
 }
 
 .container{
@@ -37,6 +47,13 @@ a:visited{
 	font-family: 'Corben', cursive;
 }
 
+button{
+	background:#C571A6;
+	border-color:#C571A6;
+}
+
+
+/*Homepage*/
 .dark-text {
     color: #000;
     font-family: 'Corben', cursive;
@@ -48,11 +65,6 @@ a:visited{
 
 .testimonial{
 	background:#C571A6;
-}
-
-button{
-	background:#C571A6;
-	border-color:#C571A6;
 }
 
 .navbar-toggle.active{
@@ -72,6 +84,17 @@ button{
 	background:#F9A1D9;
 	border-color:#F9A1D9;
 }
+
+.btn-primary:active {
+	background:#C571A6;
+	border-color:#C571A6;
+}
+
+.btn-primary:focus {
+	background:#C571A6;
+	border-color:#C571A6;
+}
+
 
 .focus-box:nth-child(4n+1) .red-border-bottom:before,
 .focus-box:nth-child(4n+2) .red-border-bottom:before,
@@ -106,6 +129,17 @@ button{
     background: #C571A6;
 }
 
+/*Pirate Forms*/
+.pirate_forms .pirate-forms-submit-button:hover{
+	background-color:#F9A1D9;
+}
 
 
+/*Pages*/
+.entry-title:before{
+	background:#C571A6;
+}
 
+.entry-title:after{
+	background:#C571A6;
+}
