@@ -45,6 +45,8 @@ $zerif_change_to_full_width = get_theme_mod( 'zerif_change_to_full_width' );
 					?>
 
 				</main><!-- #main -->
+
+				<button class="btn-primary"><a href="/">Home</a></button>
 			</div>
 		</div><!-- #primary -->
 
