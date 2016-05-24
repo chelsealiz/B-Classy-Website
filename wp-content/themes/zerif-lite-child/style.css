@@ -24,6 +24,10 @@ a:visited{
 	color:#C571A6;
 }
 
+.container{
+	font-family: 'Raleway', sans-serif;
+}
+
 .intro-text {
 	font-family: 'Corben', cursive;
 }
