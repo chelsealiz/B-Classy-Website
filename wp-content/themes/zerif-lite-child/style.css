@@ -24,6 +24,11 @@ a:visited{
 	color:#C571A6;
 }
 
+.social li a:hover{
+	color:#F9A1D9;
+}
+}
+
 .container{
 	font-family: 'Raleway', sans-serif;
 }
