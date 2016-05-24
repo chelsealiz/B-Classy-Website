@@ -16,6 +16,9 @@
 hover color: #F9A1D9
 */
 
+a{
+	color:#C571A6;
+}
 
 a:visited{
 	color:#C571A6;
@@ -41,6 +44,14 @@ a:visited{
 button{
 	background:#C571A6;
 	border-color:#C571A6;
+}
+
+.navbar-toggle.active{
+	background-color:#F9A1D9!important;
+}
+
+.navbar-toggle.collapsed{
+	background-color:#C571A6!important;
 }
 
 .btn-primary {
@@ -78,3 +89,14 @@ button{
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{
 	color:##F9A1D9;
 }
+
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+1) .latestnews-title a:before, 
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+2) .latestnews-title a:before, 
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+3) .latestnews-title a:before,
+#carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+4) .latestnews-title a:before{
+    background: #C571A6;
+}
+
+
+
+
