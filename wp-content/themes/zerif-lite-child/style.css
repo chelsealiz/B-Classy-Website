@@ -135,6 +135,14 @@ button{
 	color:#939393;
 }
 
+.navbar-brand > img{
+	max-height:200%;
+}
+
+.navbar-brand{
+	padding:none;
+}
+
 /*Pirate Forms*/
 .pirate_forms .pirate-forms-submit-button:hover{
 	background-color:#60D463;
