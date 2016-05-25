@@ -210,7 +210,8 @@ ul.nav > li.current_page_item > a:before, ul.nav > li.current-menu-item > a:befo
 }
 
 .woocommerce-page .woocommerce .woocommerce-message,
-.woocommerce-page .woocommerce .woocommerce-error{
+.woocommerce-page .woocommerce .woocommerce-error,
+.woocommerce-page .woocommerce .woocommerce-info{
 	background:#9A029A;
 }
 
@@ -218,8 +219,6 @@ ul.nav > li.current_page_item > a:before, ul.nav > li.current-menu-item > a:befo
 	background:#9A029A;
 	text-decoration:underline;
 }
-
-
 
 
 
