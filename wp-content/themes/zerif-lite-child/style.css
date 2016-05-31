@@ -202,11 +202,11 @@ ul.nav > li.current_page_item > a:before, ul.nav > li.current-menu-item > a:befo
 }
 
 .woocommerce-page .woocommerce input[type="submit"], .woocommerce-page #content input.button, .woocommerce input.button.alt, .woocommerce-page #content input.button.alt, .woocommerce-page input.button.alt{
-	background:#60D463;
+	background:#800080;
 }
 
 .woocommerce-page .woocommerce input[type="submit"]:hover, .woocommerce-page #content input.button:hover, .woocommerce input.button.alt:hover, .woocommerce-page #content input.button.alt:hover, .woocommerce-page input.button.alt:hover{
-	background:#51AD53;
+	background:#9A029A;
 }
 
 .woocommerce a.button.alt{
@@ -270,10 +270,9 @@ ul.nav > li.current_page_item > a:before, ul.nav > li.current-menu-item > a:befo
 	text-decoration:underline;
 }
 
-
-
-
-
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order{
+	background:#60D463;
+}
 
 
 
