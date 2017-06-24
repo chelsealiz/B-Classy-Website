@@ -34,10 +34,8 @@ CSS file.
 // Import your custom styles
 @import "main";
 @import "slick";
-@import "pageBuilder";
-
-// Import your retina/HD styles
-@import "2x";
+@import "header";
+@import "fonts";
 
 // Import your print styles
 @import "print";

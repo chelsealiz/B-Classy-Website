@@ -1,0 +1,98 @@
+.header {
+	.top-bar {
+		box-shadow: 1px -3px 18px $black;
+		z-index: 3;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 50px;
+		padding: 0px;
+		&-left {
+			width: 50%;
+			.menu {
+				display: inline-block;
+
+				li>a {
+					padding: 6px 10px;
+					font-family: $header-font-family;
+					.main-logo {
+						height: 35px;
+					}
+					
+				}
+			}
+		}
+
+		&-right {
+			display: inline-block;
+			width: 50%;
+			height: 100%;
+			.menu {
+				text-align: right;
+				height: 100%;
+
+				li {
+					display: inline-block;
+					height: 100%;
+
+					a {
+						color: $main-purple;
+						font-family: $header-font-family;
+						height: 100%;
+						line-height: 22px;
+
+						&:hover {
+							color: $secondary-purple;
+						}
+					}
+				}
+
+				&-item {
+					&.active {
+						a {
+							background-color: transparent;
+						}
+					}
+
+					a {
+						color: $main-purple;
+						font-family: $header-font-family;
+
+						&:hover {
+							color: $secondary-purple;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.off-canvas {
+	background-color: $main-grey;
+
+	.menu {
+
+		&-item {
+			a {
+				color: $main-purple;
+				font-family: $header-font-family;
+
+				&:hover {
+					color: $secondary-purple;
+				
+				}
+				&:focus {
+					outline: none;
+				}	
+			}
+
+			&.active {
+				a {
+					background-color: transparent;
+				}
+			}
+		}
+	}
+}
